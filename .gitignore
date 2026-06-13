@@ -1,0 +1,26 @@
+# Node / React
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.log
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+venv313/
+.env
+api/mock_data.json
+local_mock_db.json
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets - never commit real credentials
+*.pem
+*.key
